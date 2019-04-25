@@ -10,5 +10,67 @@
       <h2>Información Personal</h2>
     </header>
       <img src="../images/20170729_yo.jpg" alt="lorena ortega con parte de mi familia" width="250px">
+
+
+  <p>
+    <table border="2.5" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Título Obtenido</th>
+          <th>Lugar</th>
+          <th>Culminó?</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1991</td>
+          <td>Colegio Nuestra Señora del Carmen</td>
+          <td>Bachiller Académico</td>
+          <td>Popayán</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2005</td>
+          <td>Universidad Nacional de Colombia</td>
+          <td>Arquitecta</td>
+          <td>Bogotá</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+  </p>
+
+    <p>
+      <form autocomplete="on" name="Agregar estudios">
+        <fieldset>
+          <legend>Agregar estudios</legend>
+              <p>Año</br>
+                <select>
+                  <option>2018</option>
+                  <option>2019</option>
+                </select>
+              </p>
+
+          <label for="Institución">Institución:</label>
+          <input type="text" id="Institución" placeholder="Pon aquí donde estudiaste" required>
+
+
+          <p>
+            <label for="Lugar">Lugar:</label>
+            <textarea id="Lugar" rows="5" cols="50"></textarea>
+          </p>
+
+          <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+
+        </fieldset>
+      </form>
+    </p>
+
   </body>
 </html>
